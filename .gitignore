@@ -61,3 +61,6 @@ typings/
 .next
 
 public/*.js
+
+# Superpowers brainstorm sessions
+.superpowers/
