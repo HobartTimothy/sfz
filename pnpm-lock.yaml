@@ -1,18 +1,24 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  coffeescript:
-    specifier: ^2.7.0
-    version: 2.7.0
+importers:
+
+  .:
+    dependencies:
+      coffeescript:
+        specifier: ^2.7.0
+        version: 2.7.0
 
 packages:
 
-  /coffeescript@2.7.0:
+  coffeescript@2.7.0:
     resolution: {integrity: sha512-hzWp6TUE2d/jCcN67LrW1eh5b/rSDKQK6oD6VMLlggYVUUFexgTH9z3dNYihzX4RMhze5FTUsUmOXViJKFQR/A==}
     engines: {node: '>=6'}
     hasBin: true
-    dev: false
+
+snapshots:
+
+  coffeescript@2.7.0: {}

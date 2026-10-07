@@ -64,3 +64,5 @@ public/*.js
 
 # Superpowers brainstorm sessions
 .superpowers/
+
+.idea/
